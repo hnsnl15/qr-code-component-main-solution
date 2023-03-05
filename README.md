@@ -14,8 +14,6 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### Screenshot
@@ -39,7 +37,7 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### What I learned
 
-I learned that the <figcaption> element in HTML is useful for adding captions to media elements like images. I can use semantic tags within the <figcaption> element to add meaning and emphasis to the caption's content, making it more accessible to both humans and machines. This technique improves the quality and accessibility of my web content.
+I learned that the `<figcaption>` element in HTML is useful for adding captions to media elements like images. I can use semantic tags within the `<figcaption>` element to add meaning and emphasis to the caption's content, making it more accessible to both humans and machines. This technique improves the quality and accessibility of my web content.
 
 To see how you can add code snippets, see below:
 
@@ -57,7 +55,8 @@ To see how you can add code snippets, see below:
 </figure>
 ```
 
-```body > figure {
+```
+body > figure {
   background: var(--white);
   padding: 1rem;
   border-radius: 1rem;
@@ -85,7 +84,3 @@ figure > figcaption {
 ## Author
 
 - Frontend Mentor - [@hnsnl15](https://www.frontendmentor.io/profile/hnsnl15)
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
