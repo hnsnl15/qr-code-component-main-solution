@@ -56,14 +56,14 @@ To see how you can add code snippets, see below:
 ```
 
 ```
-body > figure {
+figure {
   background: var(--white);
   padding: 1rem;
   border-radius: 1rem;
   display: grid;
   place-items: center;
   width: 100%;
-  max-width: 19rem;
+  max-width: 20rem;
 }
 
 figure > img {
@@ -74,9 +74,12 @@ figure > img {
 figure > figcaption {
   text-align: center;
   display: grid;
+  color: var(--dark-blue);
 
   margin: 20px auto;
   row-gap: 15px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-bottom: 10px;
 }
 ```
