@@ -12,26 +12,35 @@
 }
 
 body {
-  display: grid;
-  place-items: center;
-  width: 100vw;
-  min-height: 100vh;
   background: var(--light-gray);
   font-family: "Outfit", sans-serif;
+  overflow: hidden auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
 }
 
 body p {
   font-size: 15px;
 }
 
-body > figure {
+main {
+  display: grid;
+  place-items: center;
+  width: 100vw;
+  flex: 1;
+}
+
+figure {
   background: var(--white);
   padding: 1rem;
   border-radius: 1rem;
   display: grid;
   place-items: center;
   width: 100%;
-  max-width: 19rem;
+  max-width: 20rem;
 }
 
 figure > img {
@@ -46,12 +55,15 @@ figure > figcaption {
 
   margin: 20px auto;
   row-gap: 15px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   padding-bottom: 10px;
 }
 
 footer {
   width: 100%;
   display: flex;
+  padding: 2rem 1rem;
   justify-content: center;
   align-items: center;
 }
