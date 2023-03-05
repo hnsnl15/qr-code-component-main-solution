@@ -42,6 +42,7 @@ figure > img {
 figure > figcaption {
   text-align: center;
   display: grid;
+  color: var(--dark-blue);
 
   margin: 20px auto;
   row-gap: 15px;
